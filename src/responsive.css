@@ -1,0 +1,37 @@
+@media (max-width: 480px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .header-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .add-btn {
+    width: 50%;
+  }
+  .clear-all {
+    width: 50%;
+  }
+  .add-btn:hover {
+    transform: none;
+  }
+  .clear-all:hover {
+    transform: none;
+  }
+  .save-btn:hover {
+    transform: none;
+  }
+  .delete-btn:hover {
+    transform: none;
+  }
+  .search-box {
+    width: 100%;
+  }
+  .notes-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
